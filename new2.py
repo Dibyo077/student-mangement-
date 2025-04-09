@@ -1,0 +1,11 @@
+#How to read first three lines - line by line
+myfile = open('Poem.txt','r')
+S1 = myfile.readline()
+print(S1,end = ' ')
+S2 = myfile.readline()
+print(S2,end = ' ')
+S3 = myfile.readline()
+print(S3,end = ' ')
+S4 = myfile.readline()
+print(S4,end = ' ')
+myfile.close()
